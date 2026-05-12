@@ -12,8 +12,17 @@
 * -> multiplicação
 / -> divisão
 
+## Operadores lógicos
+and -> e -> Se duas condições forem verdadeiras, o resultado é verdadeiro.
+or -> ou -> Ser pelo menos uma condição for verdadeira, o resultado é verdadeiro.
+not -> Ele altera o valor booleano da condição.
+
 ## Métodos em python
 1. print() -> Exibe informações no terminal.
+2. input() -> Capturar uma informação no terminal.
+3. lower() -> Converte toda a string em minúscula.
+4. upper() -> Converte toda a string em maiúscula.
+5. isdigit() -> Verifica se o valor contém número.
 
 ## Format em python
 
@@ -21,6 +30,11 @@
 1. ``if (se)`` -> Verifica se uma condição é (verdadeira). Se for, ele executa o código.
 2. ``elif (senão se)`` -> é usado para testar várias condições ele só executa se todas as condições anteriores forem falsas.
 3. ``else (senão)`` -> Executa o código se a condição if for false (falsa).
+
+ ## Conversão de tipos em Python
+ 1. int() -> Vamos incluir qual variável/dado que queremos converter para número inteiro.
+ 2. float() -> Vamos incluir qual variável/dado que queremos converter para número decimal.
+ 3. str() -> Vamos incluir qual variável/dado que queremos converter para texto.
 
 # Laços de repetição
 É um recurso de programação que permite executar um conjunto de comando várias vezes. Também são chamados de Loop, laços de repetição ou iteração.
