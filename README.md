@@ -67,3 +67,14 @@ while condicao:
 `def` -> Difine que uma função será declarada;
 `propriedade` -> Variável em memória que irá receber um argumento.
 `argumento` -> Valor que irá preencher o espaço da propriedade.
+
+## Estruturas de Dados
+``lsit ou lista` -> Armazena valores avulsos e podem ser heterogenia ou homogenia. Ou seja, pode guardar valores de um mesmo tipo ou de diferentes tipo.
+Ex: lsit = [] //Lista vazia
+list = ["Pedro", 20, 1.75]
+
+`dict ou dicionário` -> Armazena conjuntos de valores (chave:valor). As chaves e valores podem ser heterogenia ou homogenia.
+1. Para obter o valor de um conjunto em dict, você acessa pela chave.
+Ex: dados_usuario = {} // Dicionário Vazio
+dados_usuario = {"nome": "Pedro", "cpf": 121009774-34, "idade": 20}
+dados_usuario["nome"] => Devolve o valor, que é "Pedro".
