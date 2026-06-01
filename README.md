@@ -78,3 +78,87 @@ list = ["Pedro", 20, 1.75]
 Ex: dados_usuario = {} // Dicionário Vazio
 dados_usuario = {"nome": "Pedro", "cpf": 121009774-34, "idade": 20}
 dados_usuario["nome"] => Devolve o valor, que é "Pedro".
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+# PROGRAMMING FUNDAMENTALS NOTES
+
+## Data Types in Python
+1. string
+2. number int
+3. number float
+4. boolean
+
+## Basic Mathematical Operators
++ -> addition
+- -> subtraction
+* -> multiplication
+/ -> division
+
+## Logical Operators
+and -> If two conditions are true, the result is true.
+or -> If at least one condition is true, the result is true.
+not -> It changes the boolean value of the condition.
+
+## Methods in Python
+1. print() -> Displays information in the terminal.
+2. input() -> Captures input from the terminal.
+3. lower() -> Converts the entire string to lowercase.
+4. upper() -> Converts the entire string to uppercase.
+5. isdigit() -> Checks if the value contains a number.
+
+## Format in Python
+
+# Conditional Structure
+1. `if` -> Checks if a condition is (true). If it is, it executes the code.
+2. `elif (else if)` -> Used to test multiple conditions; it only executes if all previous conditions are false.
+3. `else` -> Executes the code if the if condition is false.
+
+## Type Conversion in Python
+1. int() -> We specify which variable/data we want to convert to an integer.
+2. float() -> We specify which variable/data we want to convert to a decimal number.
+3. str() -> We specify which variable/data we want to convert to a string.
+
+# Loops
+A programming resource that allows executing a set of commands multiple times. Also called loops or iterations.
+`FOR` -> Used when we know how many times we want to repeat something.
+Syntax:
+FOR variable in range(start, end):
+    `commands`
+[range()] -> Method that accepts number generation.
+[start] -> Inclusive. It is the first number to be used.
+[end] -> Exclusive. The number used is the one before this.
+
+## Variable Scope
+Local Scope -> The variable can only be accessed inside the structure where it was created.
+Global Scope -> The variable can be accessed by everyone.
+
+## Variable Variations
+In-memory variable -> Declared when you do not intend to use that variable in other scenarios.
+Counter variable -> Used for logic where the repetition will be incremented/changed.
+
+`WHILE` -> Used when we do not know how many times the program will repeat. It repeats while a condition is true.
+Syntax:
+while condition:
+    `commands`
+
+## Best Practices
+1. Any variable in Python uses the snake_case naming convention, or more recently camelCase.
+2. If you see a structure like name(), there is a 90% chance it is a function.
+3. Python does not have constants; however, we use the UPPERCASE convention to simulate that a variable cannot be changed.
+
+## Functions in Python
+`def` -> Defines that a function will be declared.
+`parameter` -> An in-memory variable that will receive an argument.
+`argument` -> The value that will fill the parameter's slot.
+
+## Data Structures
+`list` -> Stores individual values and can be heterogeneous or homogeneous. That is, it can hold values of the same type or different types.
+Ex: list = []  # Empty list
+list = ["Pedro", 20, 1.75]
+
+`dict (dictionary)` -> Stores sets of values (key:value). Keys and values can be heterogeneous or homogeneous.
+1. To get the value of an entry in a dict, you access it by its key.
+Ex: user_data = {}  # Empty dictionary
+user_data = {"name": "Pedro", "cpf": "121009774-34", "age": 20}
+user_data["name"]  # Returns the value, which is "Pedro".
