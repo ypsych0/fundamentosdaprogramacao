@@ -79,6 +79,25 @@ Ex: dados_usuario = {} // Dicionário Vazio
 dados_usuario = {"nome": "Pedro", "cpf": 121009774-34, "idade": 20}
 dados_usuario["nome"] => Devolve o valor, que é "Pedro".
 
+## POO
+1. Em python, todo molde é declarado através de uma classe =>[class]
+2. Qualquer Característa dentro de uma classe, é chamada de [atributo] e são declaradas com variáveis.
+3. As ações dentro de uma classe são chamadas de métodos e são declaradas com [funções].
+
+# Precisamos crirar um molde de uma pessoa. => class
+# Características -> atributos => variáveis
+# Ações -> métodos => funções
+
+4. [self] -> Significa ele mesmo, o atributo da classe atual.
+5. [constructor] -> É A estrutura de como a classe será "copiada".
+
+## Cases em python
+snake_case -> nome_aluno -> Nome de variáveis, métodos(funções) e arquivos.
+cammelCase -> nomeAluno -> Nome de variáveis, métodos(funções). ``Mais atual*`
+PascalCase -> NomeAluno -> Classes.
+kebab-case -> nome-aluno -> Não ultilizamos em python.
+
+
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 # PROGRAMMING FUNDAMENTALS NOTES
@@ -162,3 +181,21 @@ list = ["Pedro", 20, 1.75]
 Ex: user_data = {}  # Empty dictionary
 user_data = {"name": "Pedro", "cpf": "121009774-34", "age": 20}
 user_data["name"]  # Returns the value, which is "Pedro".
+
+## OOP
+1. In Python, every blueprint is declared through a class => [class]
+2. Any characteristic inside a class is called an [attribute] and is declared using variables.
+3. The actions inside a class are called methods and are declared using [functions].
+
+# We need to create a blueprint of a person. => class
+# Characteristics -> attributes => variables
+# Actions -> methods => functions
+
+4. [self] -> Means itself — refers to the current instance of the class.
+5. [constructor] -> Is the structure that defines how the class will be "copied" (instantiated).
+
+## Naming Conventions in Python
+snake_case -> student_name -> Used for variables, methods (functions), and file names.
+camelCase  -> studentName -> Used for variables and methods (functions). ``More modern*`
+PascalCase -> StudentName -> Used for classes.
+kebab-case -> student-name -> Not used in Python.
